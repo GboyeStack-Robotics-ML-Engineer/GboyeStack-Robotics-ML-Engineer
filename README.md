@@ -1,6 +1,8 @@
-## Hi there 👋
+## 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Sherif&size=40&pause=900&color=305042&center=true&vCenter=true&width=1000&height=100&lines=Hey%20fellow%20coder,%20Welcome%20to%20my%20account.%20I%20am%20Samuel.)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Sherif&size=40&pause=900&color=305042&center=true&vCenter=true&width=1000&height=100&lines=Frontend;Open+source;DevOps;Technical+Writing;Teaching+kids+tech)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Sherif&size=40&pause=900&color=305042&center=true&vCenter=true&width=1000&height=100&lines=AI,%20Data%20Science,%20Machine%20Learning,%20Deep%20Learning,%20Frontend%20and%20Backend)](https://git.io/typing-svg)
+
 
 <!--
 **GboyeStack-Robotics-ML-Engineer/GboyeStack-Robotics-ML-Engineer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
