@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="800" height="180">
+<style>
+  text{font-family:'Segoe UI',Ubuntu,sans-serif}
+  .lb{font-size:20px;font-weight:700;fill:#00E5FF;text-anchor:middle}
+  .bt{font-size:13px;font-weight:600;text-anchor:middle;dominant-baseline:central}
+
+  /* Slide 1: 0-25% */
+  @keyframes l1{0%{opacity:0}2%{opacity:1}21%{opacity:1}25%{opacity:0}100%{opacity:0}}
+  @keyframes f11{0%{opacity:0}5%{opacity:0}7%{opacity:1}21%{opacity:1}25%{opacity:0}100%{opacity:0}}
+  @keyframes f12{0%{opacity:0}7%{opacity:0}9%{opacity:1}21%{opacity:1}25%{opacity:0}100%{opacity:0}}
+  @keyframes f13{0%{opacity:0}9%{opacity:0}11%{opacity:1}21%{opacity:1}25%{opacity:0}100%{opacity:0}}
+  @keyframes f14{0%{opacity:0}11%{opacity:0}13%{opacity:1}21%{opacity:1}25%{opacity:0}100%{opacity:0}}
+
+  /* Slide 2: 25-50% */
+  @keyframes l2{0%{opacity:0}25%{opacity:0}27%{opacity:1}46%{opacity:1}50%{opacity:0}100%{opacity:0}}
+  @keyframes f21{0%{opacity:0}30%{opacity:0}32%{opacity:1}46%{opacity:1}50%{opacity:0}100%{opacity:0}}
+  @keyframes f22{0%{opacity:0}32%{opacity:0}34%{opacity:1}46%{opacity:1}50%{opacity:0}100%{opacity:0}}
+  @keyframes f23{0%{opacity:0}34%{opacity:0}36%{opacity:1}46%{opacity:1}50%{opacity:0}100%{opacity:0}}
+  @keyframes f24{0%{opacity:0}36%{opacity:0}38%{opacity:1}46%{opacity:1}50%{opacity:0}100%{opacity:0}}
+  @keyframes f25{0%{opacity:0}38%{opacity:0}40%{opacity:1}46%{opacity:1}50%{opacity:0}100%{opacity:0}}
+
+  /* Slide 3: 50-75% */
+  @keyframes l3{0%{opacity:0}50%{opacity:0}52%{opacity:1}71%{opacity:1}75%{opacity:0}100%{opacity:0}}
+  @keyframes f31{0%{opacity:0}55%{opacity:0}57%{opacity:1}71%{opacity:1}75%{opacity:0}100%{opacity:0}}
+  @keyframes f32{0%{opacity:0}57%{opacity:0}59%{opacity:1}71%{opacity:1}75%{opacity:0}100%{opacity:0}}
+  @keyframes f33{0%{opacity:0}59%{opacity:0}61%{opacity:1}71%{opacity:1}75%{opacity:0}100%{opacity:0}}
+  @keyframes f34{0%{opacity:0}61%{opacity:0}63%{opacity:1}71%{opacity:1}75%{opacity:0}100%{opacity:0}}
+  @keyframes f35{0%{opacity:0}63%{opacity:0}65%{opacity:1}71%{opacity:1}75%{opacity:0}100%{opacity:0}}
+  @keyframes f36{0%{opacity:0}65%{opacity:0}67%{opacity:1}71%{opacity:1}75%{opacity:0}100%{opacity:0}}
+
+  /* Slide 4: 75-100% */
+  @keyframes l4{0%{opacity:0}75%{opacity:0}77%{opacity:1}96%{opacity:1}100%{opacity:0}}
+  @keyframes f41{0%{opacity:0}80%{opacity:0}82%{opacity:1}96%{opacity:1}100%{opacity:0}}
+  @keyframes f42{0%{opacity:0}82%{opacity:0}84%{opacity:1}96%{opacity:1}100%{opacity:0}}
+  @keyframes f43{0%{opacity:0}84%{opacity:0}86%{opacity:1}96%{opacity:1}100%{opacity:0}}
+  @keyframes f44{0%{opacity:0}86%{opacity:0}88%{opacity:1}96%{opacity:1}100%{opacity:0}}
+
+  /* Dot indicators */
+  @keyframes d1{0%{fill:#00E5FF}24%{fill:#00E5FF}25%{fill:#333}100%{fill:#333}}
+  @keyframes d2{0%{fill:#333}25%{fill:#00E5FF}49%{fill:#00E5FF}50%{fill:#333}100%{fill:#333}}
+  @keyframes d3{0%{fill:#333}50%{fill:#00E5FF}74%{fill:#00E5FF}75%{fill:#333}100%{fill:#333}}
+  @keyframes d4{0%{fill:#333}75%{fill:#00E5FF}100%{fill:#00E5FF}}
+
+  .al1{opacity:0;animation:l1 16s infinite}
+  .a11{opacity:0;animation:f11 16s infinite}.a12{opacity:0;animation:f12 16s infinite}
+  .a13{opacity:0;animation:f13 16s infinite}.a14{opacity:0;animation:f14 16s infinite}
+
+  .al2{opacity:0;animation:l2 16s infinite}
+  .a21{opacity:0;animation:f21 16s infinite}.a22{opacity:0;animation:f22 16s infinite}
+  .a23{opacity:0;animation:f23 16s infinite}.a24{opacity:0;animation:f24 16s infinite}
+  .a25{opacity:0;animation:f25 16s infinite}
+
+  .al3{opacity:0;animation:l3 16s infinite}
+  .a31{opacity:0;animation:f31 16s infinite}.a32{opacity:0;animation:f32 16s infinite}
+  .a33{opacity:0;animation:f33 16s infinite}.a34{opacity:0;animation:f34 16s infinite}
+  .a35{opacity:0;animation:f35 16s infinite}.a36{opacity:0;animation:f36 16s infinite}
+
+  .al4{opacity:0;animation:l4 16s infinite}
+  .a41{opacity:0;animation:f41 16s infinite}.a42{opacity:0;animation:f42 16s infinite}
+  .a43{opacity:0;animation:f43 16s infinite}.a44{opacity:0;animation:f44 16s infinite}
+
+  .ad1{animation:d1 16s infinite}.ad2{animation:d2 16s infinite}
+  .ad3{animation:d3 16s infinite}.ad4{animation:d4 16s infinite}
+</style>
+
+<!-- Background -->
+<rect width="800" height="180" rx="16" fill="#0D1117" stroke="#161B22" stroke-width="1.5"/>
+
+<!-- ═══ SLIDE 1: Languages ═══ -->
+<text class="lb al1" x="400" y="46">LANGUAGES</text>
+<!-- Python -->
+<g class="a11"><rect x="189" y="78" width="95" height="36" rx="8" fill="#3776AB"/>
+<text class="bt" x="236" y="96" fill="#fff">Python</text></g>
+<!-- C++ -->
+<g class="a12"><rect x="298" y="78" width="95" height="36" rx="8" fill="#00599C"/>
+<text class="bt" x="345" y="96" fill="#fff">C++</text></g>
+<!-- JavaScript -->
+<g class="a13"><rect x="407" y="78" width="95" height="36" rx="8" fill="#F7DF1E"/>
+<text class="bt" x="454" y="96" fill="#000">JavaScript</text></g>
+<!-- SQL -->
+<g class="a14"><rect x="516" y="78" width="95" height="36" rx="8" fill="#4479A1"/>
+<text class="bt" x="563" y="96" fill="#fff">SQL</text></g>
+
+<!-- ═══ SLIDE 2: ML / AI ═══ -->
+<text class="lb al2" x="400" y="46">ML / AI FRAMEWORKS</text>
+<!-- PyTorch -->
+<g class="a21"><rect x="135" y="78" width="95" height="36" rx="8" fill="#EE4C2C"/>
+<text class="bt" x="182" y="96" fill="#fff">PyTorch</text></g>
+<!-- TensorFlow -->
+<g class="a22"><rect x="244" y="78" width="95" height="36" rx="8" fill="#FF6F00"/>
+<text class="bt" x="291" y="96" fill="#fff">TensorFlow</text></g>
+<!-- Sklearn -->
+<g class="a23"><rect x="353" y="78" width="95" height="36" rx="8" fill="#F7931E"/>
+<text class="bt" x="400" y="96" fill="#fff">Sklearn</text></g>
+<!-- OpenCV -->
+<g class="a24"><rect x="462" y="78" width="95" height="36" rx="8" fill="#5C3EE8"/>
+<text class="bt" x="509" y="96" fill="#fff">OpenCV</text></g>
+<!-- YOLO -->
+<g class="a25"><rect x="571" y="78" width="95" height="36" rx="8" fill="#00FFFF"/>
+<text class="bt" x="618" y="96" fill="#000">YOLO</text></g>
+
+<!-- ═══ SLIDE 3: Dev Tools ═══ -->
+<text class="lb al3" x="400" y="46">DEV TOOLS</text>
+<!-- Docker -->
+<g class="a31"><rect x="80" y="78" width="95" height="36" rx="8" fill="#2496ED"/>
+<text class="bt" x="127" y="96" fill="#fff">Docker</text></g>
+<!-- Git -->
+<g class="a32"><rect x="189" y="78" width="95" height="36" rx="8" fill="#F05032"/>
+<text class="bt" x="236" y="96" fill="#fff">Git</text></g>
+<!-- Linux -->
+<g class="a33"><rect x="298" y="78" width="95" height="36" rx="8" fill="#FCC624"/>
+<text class="bt" x="345" y="96" fill="#000">Linux</text></g>
+<!-- VS Code -->
+<g class="a34"><rect x="407" y="78" width="95" height="36" rx="8" fill="#007ACC"/>
+<text class="bt" x="454" y="96" fill="#fff">VS Code</text></g>
+<!-- Jupyter -->
+<g class="a35"><rect x="516" y="78" width="95" height="36" rx="8" fill="#F37626"/>
+<text class="bt" x="563" y="96" fill="#fff">Jupyter</text></g>
+<!-- Streamlit -->
+<g class="a36"><rect x="625" y="78" width="95" height="36" rx="8" fill="#FF4B4B"/>
+<text class="bt" x="672" y="96" fill="#fff">Streamlit</text></g>
+
+<!-- ═══ SLIDE 4: Cloud & MLOps ═══ -->
+<text class="lb al4" x="400" y="46">CLOUD &amp; MLOPS</text>
+<!-- AWS -->
+<g class="a41"><rect x="189" y="78" width="95" height="36" rx="8" fill="#FF9900"/>
+<text class="bt" x="236" y="96" fill="#000">AWS</text></g>
+<!-- GCP -->
+<g class="a42"><rect x="298" y="78" width="95" height="36" rx="8" fill="#4285F4"/>
+<text class="bt" x="345" y="96" fill="#fff">GCP</text></g>
+<!-- Render -->
+<g class="a43"><rect x="407" y="78" width="95" height="36" rx="8" fill="#46E3B7"/>
+<text class="bt" x="454" y="96" fill="#000">Render</text></g>
+<!-- GitHub Actions -->
+<g class="a44"><rect x="516" y="78" width="95" height="36" rx="8" fill="#2088FF"/>
+<text class="bt" x="563" y="96" fill="#fff">Actions</text></g>
+
+<!-- ═══ Carousel Dot Indicators ═══ -->
+<circle class="ad1" cx="376" cy="148" r="5" fill="#00E5FF"/>
+<circle class="ad2" cx="392" cy="148" r="5" fill="#333"/>
+<circle class="ad3" cx="408" cy="148" r="5" fill="#333"/>
+<circle class="ad4" cx="424" cy="148" r="5" fill="#333"/>
+
+<!-- Decorative side lines -->
+<line x1="100" y1="46" x2="280" y2="46" stroke="#161B22" stroke-width="1" class="al1"/>
+<line x1="520" y1="46" x2="700" y2="46" stroke="#161B22" stroke-width="1" class="al1"/>
+</svg>

@@ -77,41 +77,7 @@ fun_fact: >
 <br/>
 
 <div align="center">
-
-<!-- ── Languages ──────────────────────────────────────────────────── -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1500&color=00E5FF&center=true&vCenter=true&repeat=true&width=260&height=30&lines=%F0%9F%90%8D+Languages" alt="Languages" />
-<br/><br/>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,cpp,javascript,postgres&theme=dark" alt="Languages" />
-</a>
-
-<br/><br/>
-
-<!-- ── ML / AI Frameworks ─────────────────────────────────────────── -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1500&color=00E5FF&center=true&vCenter=true&repeat=true&width=260&height=30&lines=%F0%9F%A7%A0+ML+%2F+AI+Frameworks" alt="ML / AI" />
-<br/><br/>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" alt="ML Frameworks" />
-</a>
-
-<br/><br/>
-
-<!-- ── Tools & Platforms ──────────────────────────────────────────── -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1500&color=00E5FF&center=true&vCenter=true&repeat=true&width=260&height=30&lines=%F0%9F%9B%A0%EF%B8%8F+Tools+%26+Platforms" alt="Tools" />
-<br/><br/>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=docker,git,linux,vscode,anaconda,bash&theme=dark" alt="Tools" />
-</a>
-
-<br/><br/>
-
-<!-- ── Cloud & MLOps ──────────────────────────────────────────────── -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1500&color=00E5FF&center=true&vCenter=true&repeat=true&width=260&height=30&lines=%E2%98%81%EF%B8%8F+Cloud+%26+MLOps" alt="Cloud" />
-<br/><br/>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=aws,gcp,github,githubactions&theme=dark" alt="Cloud" />
-</a>
-
+<img src="./assets/tech-carousel.svg" width="100%" alt="Tech Stack Carousel"/>
 </div>
 
 <br/>
