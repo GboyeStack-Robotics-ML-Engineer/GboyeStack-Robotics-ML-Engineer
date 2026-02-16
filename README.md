@@ -94,27 +94,21 @@ fun_fact: >
 
 <div align="center">
 
-<h3>🔍 Vision & Language</h3>
-
-<a href="https://github.com/GboyeStack-Robotics-ML-Engineer/SPAM-DETECTION">
-  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=GboyeStack-Robotics-ML-Engineer&repo=SPAM-DETECTION&theme=tokyonight&hide_border=true&border_radius=12&bg_color=0D1117&title_color=00E5FF&icon_color=1565C0" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/GboyeStack-Robotics-ML-Engineer/VIT---Transformers">
-  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=GboyeStack-Robotics-ML-Engineer&repo=VIT---Transformers&theme=tokyonight&hide_border=true&border_radius=12&bg_color=0D1117&title_color=00E5FF&icon_color=1565C0" />
+<!-- Animated Projects Carousel -->
+<a href="https://github.com/GboyeStack-Robotics-ML-Engineer?tab=repositories">
+  <img src="./assets/projects-carousel.svg" width="100%" alt="Projects Carousel"/>
 </a>
 
 <br/><br/>
 
-<h3>🤖 Real-Time Intelligence</h3>
-
-<a href="https://github.com/GboyeStack-Robotics-ML-Engineer/YOLO-OBJECT-DETECTION">
-  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=GboyeStack-Robotics-ML-Engineer&repo=YOLO-OBJECT-DETECTION&theme=tokyonight&hide_border=true&border_radius=12&bg_color=0D1117&title_color=00E5FF&icon_color=1565C0" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/GboyeStack-Robotics-ML-Engineer/MINI-GPT">
-  <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=GboyeStack-Robotics-ML-Engineer&repo=MINI-GPT&theme=tokyonight&hide_border=true&border_radius=12&bg_color=0D1117&title_color=00E5FF&icon_color=1565C0" />
-</a>
+<!-- Clickable Repo Links -->
+<a href="https://github.com/GboyeStack-Robotics-ML-Engineer/SPAM-DETECTION"><img src="https://img.shields.io/badge/🛡️_Spam_Detection-View_Repo-00E5FF?style=for-the-badge&labelColor=0D1117" /></a>
+&nbsp;
+<a href="https://github.com/GboyeStack-Robotics-ML-Engineer/VIT---Transformers"><img src="https://img.shields.io/badge/👁️_Vision_Transformer-View_Repo-00E5FF?style=for-the-badge&labelColor=0D1117" /></a>
+&nbsp;
+<a href="https://github.com/GboyeStack-Robotics-ML-Engineer/YOLO-OBJECT-DETECTION"><img src="https://img.shields.io/badge/🎯_YOLO_Detection-View_Repo-00E5FF?style=for-the-badge&labelColor=0D1117" /></a>
+&nbsp;
+<a href="https://github.com/GboyeStack-Robotics-ML-Engineer/MINI-GPT"><img src="https://img.shields.io/badge/🧠_Mini_GPT-View_Repo-00E5FF?style=for-the-badge&labelColor=0D1117" /></a>
 
 </div>
 
