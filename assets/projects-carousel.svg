@@ -1,128 +1,127 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="800" height="210">
 <style>
   text{font-family:'Segoe UI',Ubuntu,sans-serif}
 
   @keyframes p1a{0%{opacity:0}2%{opacity:1}22%{opacity:1}25%{opacity:0}100%{opacity:0}}
-  @keyframes p1b{0%{opacity:0}4%{opacity:0}6%{opacity:1}22%{opacity:1}25%{opacity:0}100%{opacity:0}}
-  @keyframes p1c{0%{opacity:0}6%{opacity:0}8%{opacity:1}22%{opacity:1}25%{opacity:0}100%{opacity:0}}
-  @keyframes p1d{0%{opacity:0}8%{opacity:0}10%{opacity:1}22%{opacity:1}25%{opacity:0}100%{opacity:0}}
+  @keyframes p1b{0%{opacity:0}5%{opacity:0}7%{opacity:1}22%{opacity:1}25%{opacity:0}100%{opacity:0}}
+  @keyframes p1c{0%{opacity:0}8%{opacity:0}10%{opacity:1}22%{opacity:1}25%{opacity:0}100%{opacity:0}}
 
   @keyframes p2a{0%{opacity:0}25%{opacity:0}27%{opacity:1}47%{opacity:1}50%{opacity:0}100%{opacity:0}}
-  @keyframes p2b{0%{opacity:0}29%{opacity:0}31%{opacity:1}47%{opacity:1}50%{opacity:0}100%{opacity:0}}
-  @keyframes p2c{0%{opacity:0}31%{opacity:0}33%{opacity:1}47%{opacity:1}50%{opacity:0}100%{opacity:0}}
-  @keyframes p2d{0%{opacity:0}33%{opacity:0}35%{opacity:1}47%{opacity:1}50%{opacity:0}100%{opacity:0}}
+  @keyframes p2b{0%{opacity:0}30%{opacity:0}32%{opacity:1}47%{opacity:1}50%{opacity:0}100%{opacity:0}}
+  @keyframes p2c{0%{opacity:0}33%{opacity:0}35%{opacity:1}47%{opacity:1}50%{opacity:0}100%{opacity:0}}
 
   @keyframes p3a{0%{opacity:0}50%{opacity:0}52%{opacity:1}72%{opacity:1}75%{opacity:0}100%{opacity:0}}
-  @keyframes p3b{0%{opacity:0}54%{opacity:0}56%{opacity:1}72%{opacity:1}75%{opacity:0}100%{opacity:0}}
-  @keyframes p3c{0%{opacity:0}56%{opacity:0}58%{opacity:1}72%{opacity:1}75%{opacity:0}100%{opacity:0}}
-  @keyframes p3d{0%{opacity:0}58%{opacity:0}60%{opacity:1}72%{opacity:1}75%{opacity:0}100%{opacity:0}}
+  @keyframes p3b{0%{opacity:0}55%{opacity:0}57%{opacity:1}72%{opacity:1}75%{opacity:0}100%{opacity:0}}
+  @keyframes p3c{0%{opacity:0}58%{opacity:0}60%{opacity:1}72%{opacity:1}75%{opacity:0}100%{opacity:0}}
 
   @keyframes p4a{0%{opacity:0}75%{opacity:0}77%{opacity:1}97%{opacity:1}100%{opacity:0}}
-  @keyframes p4b{0%{opacity:0}79%{opacity:0}81%{opacity:1}97%{opacity:1}100%{opacity:0}}
-  @keyframes p4c{0%{opacity:0}81%{opacity:0}83%{opacity:1}97%{opacity:1}100%{opacity:0}}
-  @keyframes p4d{0%{opacity:0}83%{opacity:0}85%{opacity:1}97%{opacity:1}100%{opacity:0}}
+  @keyframes p4b{0%{opacity:0}80%{opacity:0}82%{opacity:1}97%{opacity:1}100%{opacity:0}}
+  @keyframes p4c{0%{opacity:0}83%{opacity:0}85%{opacity:1}97%{opacity:1}100%{opacity:0}}
 
   @keyframes d1{0%{fill:#00E5FF}24%{fill:#00E5FF}25%{fill:#333}100%{fill:#333}}
   @keyframes d2{0%{fill:#333}25%{fill:#00E5FF}49%{fill:#00E5FF}50%{fill:#333}100%{fill:#333}}
   @keyframes d3{0%{fill:#333}50%{fill:#00E5FF}74%{fill:#00E5FF}75%{fill:#333}100%{fill:#333}}
   @keyframes d4{0%{fill:#333}75%{fill:#00E5FF}100%{fill:#00E5FF}}
 
-  /* Glow pulse on corner brackets */
-  @keyframes glow{0%{opacity:0.3}50%{opacity:0.8}100%{opacity:0.3}}
+  @keyframes glow{0%{opacity:0.25}50%{opacity:0.7}100%{opacity:0.25}}
 
-  .z1a{opacity:0;animation:p1a 20s infinite}.z1b{opacity:0;animation:p1b 20s infinite}
-  .z1c{opacity:0;animation:p1c 20s infinite}.z1d{opacity:0;animation:p1d 20s infinite}
-  .z2a{opacity:0;animation:p2a 20s infinite}.z2b{opacity:0;animation:p2b 20s infinite}
-  .z2c{opacity:0;animation:p2c 20s infinite}.z2d{opacity:0;animation:p2d 20s infinite}
-  .z3a{opacity:0;animation:p3a 20s infinite}.z3b{opacity:0;animation:p3b 20s infinite}
-  .z3c{opacity:0;animation:p3c 20s infinite}.z3d{opacity:0;animation:p3d 20s infinite}
-  .z4a{opacity:0;animation:p4a 20s infinite}.z4b{opacity:0;animation:p4b 20s infinite}
-  .z4c{opacity:0;animation:p4c 20s infinite}.z4d{opacity:0;animation:p4d 20s infinite}
+  .z1a{opacity:0;animation:p1a 20s infinite}.z1b{opacity:0;animation:p1b 20s infinite}.z1c{opacity:0;animation:p1c 20s infinite}
+  .z2a{opacity:0;animation:p2a 20s infinite}.z2b{opacity:0;animation:p2b 20s infinite}.z2c{opacity:0;animation:p2c 20s infinite}
+  .z3a{opacity:0;animation:p3a 20s infinite}.z3b{opacity:0;animation:p3b 20s infinite}.z3c{opacity:0;animation:p3c 20s infinite}
+  .z4a{opacity:0;animation:p4a 20s infinite}.z4b{opacity:0;animation:p4b 20s infinite}.z4c{opacity:0;animation:p4c 20s infinite}
+
   .dd1{animation:d1 20s infinite}.dd2{animation:d2 20s infinite}
   .dd3{animation:d3 20s infinite}.dd4{animation:d4 20s infinite}
   .corner{animation:glow 3s ease-in-out infinite}
+
+  /* Accent line under title */
+  .accent{stroke:#1565C0;stroke-width:2}
 </style>
 
 <!-- Background -->
-<rect width="800" height="240" rx="16" fill="#0D1117" stroke="#161B22" stroke-width="1.5"/>
+<rect width="800" height="210" rx="16" fill="#0D1117" stroke="#161B22" stroke-width="1.5"/>
 
 <!-- Corner bracket decorations -->
-<path class="corner" d="M20,35 L20,15 L40,15" stroke="#1565C0" stroke-width="2" fill="none"/>
-<path class="corner" d="M760,15 L780,15 L780,35" stroke="#1565C0" stroke-width="2" fill="none"/>
-<path class="corner" d="M20,205 L20,225 L40,225" stroke="#1565C0" stroke-width="2" fill="none"/>
-<path class="corner" d="M760,225 L780,225 L780,205" stroke="#1565C0" stroke-width="2" fill="none"/>
+<path class="corner" d="M18,32 L18,14 L36,14" stroke="#1565C0" stroke-width="2" fill="none"/>
+<path class="corner" d="M764,14 L782,14 L782,32" stroke="#1565C0" stroke-width="2" fill="none"/>
+<path class="corner" d="M18,178 L18,196 L36,196" stroke="#1565C0" stroke-width="2" fill="none"/>
+<path class="corner" d="M764,196 L782,196 L782,178" stroke="#1565C0" stroke-width="2" fill="none"/>
 
 <!-- ═══ SLIDE 1: Spam Detection ═══ -->
-<text class="z1a" x="400" y="160" text-anchor="middle" fill="#1565C0" font-size="160" font-weight="900" opacity="0.05">01</text>
-<g class="z1a"><text x="400" y="42" text-anchor="middle" fill="#636E7B" font-size="11" letter-spacing="3">PROJECT  01 / 04</text></g>
-<g class="z1b"><text x="400" y="82" text-anchor="middle" fill="#00E5FF" font-size="28" font-weight="700">🛡️ Spam Detection</text></g>
-<g class="z1c">
-  <text x="400" y="115" text-anchor="middle" fill="#ADBAC7" font-size="14">ML-powered spam detection using NLP and text classification</text>
-  <text x="400" y="137" text-anchor="middle" fill="#7D8590" font-size="13">for real-time message filtering and classification</text>
+<g class="z1a">
+  <text x="400" y="62" text-anchor="middle" fill="#00E5FF" font-size="28" font-weight="700">Spam Detection</text>
+  <line x1="340" y1="74" x2="460" y2="74" class="accent" opacity="0.5"/>
 </g>
-<g class="z1d">
-  <rect x="283" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="318" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">Python</text>
-  <rect x="365" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="400" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">NLP</text>
-  <rect x="447" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="482" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">Sklearn</text>
+<g class="z1b">
+  <text x="400" y="105" text-anchor="middle" fill="#ADBAC7" font-size="15">ML-powered spam detection using NLP and text classification</text>
+  <text x="400" y="128" text-anchor="middle" fill="#7D8590" font-size="13">for real-time message filtering and classification</text>
+</g>
+<g class="z1c">
+  <rect x="283" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="318" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">Python</text>
+  <rect x="365" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="400" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">NLP</text>
+  <rect x="447" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="482" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">Sklearn</text>
 </g>
 
 <!-- ═══ SLIDE 2: Vision Transformer ═══ -->
-<text class="z2a" x="400" y="160" text-anchor="middle" fill="#1565C0" font-size="160" font-weight="900" opacity="0.05">02</text>
-<g class="z2a"><text x="400" y="42" text-anchor="middle" fill="#636E7B" font-size="11" letter-spacing="3">PROJECT  02 / 04</text></g>
-<g class="z2b"><text x="400" y="82" text-anchor="middle" fill="#00E5FF" font-size="28" font-weight="700">👁️ Vision Transformer</text></g>
-<g class="z2c">
-  <text x="400" y="115" text-anchor="middle" fill="#ADBAC7" font-size="14">Image classification using self-attention mechanisms</text>
-  <text x="400" y="137" text-anchor="middle" fill="#7D8590" font-size="13">on image patches with ViT architecture</text>
+<g class="z2a">
+  <text x="400" y="62" text-anchor="middle" fill="#00E5FF" font-size="28" font-weight="700">Vision Transformer</text>
+  <line x1="320" y1="74" x2="480" y2="74" class="accent" opacity="0.5"/>
 </g>
-<g class="z2d">
-  <rect x="283" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="318" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">PyTorch</text>
-  <rect x="365" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="400" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">ViT</text>
-  <rect x="447" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="482" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">CV</text>
+<g class="z2b">
+  <text x="400" y="105" text-anchor="middle" fill="#ADBAC7" font-size="15">Image classification using self-attention mechanisms</text>
+  <text x="400" y="128" text-anchor="middle" fill="#7D8590" font-size="13">on image patches with ViT architecture</text>
+</g>
+<g class="z2c">
+  <rect x="283" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="318" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">PyTorch</text>
+  <rect x="365" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="400" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">ViT</text>
+  <rect x="447" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="482" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">CV</text>
 </g>
 
 <!-- ═══ SLIDE 3: YOLO Object Detection ═══ -->
-<text class="z3a" x="400" y="160" text-anchor="middle" fill="#1565C0" font-size="160" font-weight="900" opacity="0.05">03</text>
-<g class="z3a"><text x="400" y="42" text-anchor="middle" fill="#636E7B" font-size="11" letter-spacing="3">PROJECT  03 / 04</text></g>
-<g class="z3b"><text x="400" y="82" text-anchor="middle" fill="#00E5FF" font-size="28" font-weight="700">🎯 YOLO Object Detection</text></g>
-<g class="z3c">
-  <text x="400" y="115" text-anchor="middle" fill="#ADBAC7" font-size="14">Real-time object detection and tracking pipeline</text>
-  <text x="400" y="137" text-anchor="middle" fill="#7D8590" font-size="13">powered by YOLO for video stream analysis</text>
+<g class="z3a">
+  <text x="400" y="62" text-anchor="middle" fill="#00E5FF" font-size="28" font-weight="700">YOLO Object Detection</text>
+  <line x1="300" y1="74" x2="500" y2="74" class="accent" opacity="0.5"/>
 </g>
-<g class="z3d">
-  <rect x="283" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="318" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">YOLO</text>
-  <rect x="365" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="400" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">OpenCV</text>
-  <rect x="447" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="482" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">Python</text>
+<g class="z3b">
+  <text x="400" y="105" text-anchor="middle" fill="#ADBAC7" font-size="15">Real-time object detection and tracking pipeline</text>
+  <text x="400" y="128" text-anchor="middle" fill="#7D8590" font-size="13">powered by YOLO for video stream analysis</text>
+</g>
+<g class="z3c">
+  <rect x="283" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="318" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">YOLO</text>
+  <rect x="365" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="400" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">OpenCV</text>
+  <rect x="447" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="482" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">Python</text>
 </g>
 
 <!-- ═══ SLIDE 4: Mini GPT ═══ -->
-<text class="z4a" x="400" y="160" text-anchor="middle" fill="#1565C0" font-size="160" font-weight="900" opacity="0.05">04</text>
-<g class="z4a"><text x="400" y="42" text-anchor="middle" fill="#636E7B" font-size="11" letter-spacing="3">PROJECT  04 / 04</text></g>
-<g class="z4b"><text x="400" y="82" text-anchor="middle" fill="#00E5FF" font-size="28" font-weight="700">🧠 Mini GPT</text></g>
-<g class="z4c">
-  <text x="400" y="115" text-anchor="middle" fill="#ADBAC7" font-size="14">Miniature GPT language model built from scratch</text>
-  <text x="400" y="137" text-anchor="middle" fill="#7D8590" font-size="13">exploring transformer architectures and text generation</text>
+<g class="z4a">
+  <text x="400" y="62" text-anchor="middle" fill="#00E5FF" font-size="28" font-weight="700">Mini GPT</text>
+  <line x1="350" y1="74" x2="450" y2="74" class="accent" opacity="0.5"/>
 </g>
-<g class="z4d">
-  <rect x="283" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="318" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">PyTorch</text>
-  <rect x="365" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="400" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">NLP</text>
-  <rect x="447" y="155" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
-  <text x="482" y="168" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">GPT</text>
+<g class="z4b">
+  <text x="400" y="105" text-anchor="middle" fill="#ADBAC7" font-size="15">Miniature GPT language model built from scratch</text>
+  <text x="400" y="128" text-anchor="middle" fill="#7D8590" font-size="13">exploring transformer architectures and text generation</text>
+</g>
+<g class="z4c">
+  <rect x="283" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="318" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">PyTorch</text>
+  <rect x="365" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="400" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">NLP</text>
+  <rect x="447" y="148" width="70" height="26" rx="13" fill="none" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="482" y="161" text-anchor="middle" fill="#00E5FF" font-size="11" dominant-baseline="central">GPT</text>
 </g>
 
 <!-- ═══ Carousel Dot Indicators ═══ -->
-<circle class="dd1" cx="376" cy="210" r="5" fill="#00E5FF"/>
-<circle class="dd2" cx="392" cy="210" r="5" fill="#333"/>
-<circle class="dd3" cx="408" cy="210" r="5" fill="#333"/>
-<circle class="dd4" cx="424" cy="210" r="5" fill="#333"/>
+<circle class="dd1" cx="376" cy="195" r="4" fill="#00E5FF"/>
+<circle class="dd2" cx="392" cy="195" r="4" fill="#333"/>
+<circle class="dd3" cx="408" cy="195" r="4" fill="#333"/>
+<circle class="dd4" cx="424" cy="195" r="4" fill="#333"/>
 </svg>
