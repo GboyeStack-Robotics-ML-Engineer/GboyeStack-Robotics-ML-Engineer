@@ -78,43 +78,39 @@ fun_fact: >
 
 <div align="center">
 
-<table border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td align="center" width="25%"><strong>🐍 Languages</strong></td>
-<td align="center" width="25%"><strong>🧠 ML / AI</strong></td>
-<td align="center" width="25%"><strong>🛠️ Tools</strong></td>
-<td align="center" width="25%"><strong>☁️ Cloud</strong></td>
-</tr>
-<tr>
-<td align="center" valign="top">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /><br/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
-</td>
-<td align="center" valign="top">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/HuggingFace-FFD700?style=flat-square&logo=huggingface&logoColor=black" /><br/>
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black" />
-</td>
-<td align="center" valign="top">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /><br/>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
-</td>
-<td align="center" valign="top">
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" /><br/>
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" />
-</td>
-</tr>
-</table>
+<!-- ── Languages ──────────────────────────────────────────────────── -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1500&color=00E5FF&center=true&vCenter=true&repeat=true&width=260&height=30&lines=%F0%9F%90%8D+Languages" alt="Languages" />
+<br/><br/>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,cpp,javascript,postgres&theme=dark" alt="Languages" />
+</a>
+
+<br/><br/>
+
+<!-- ── ML / AI Frameworks ─────────────────────────────────────────── -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1500&color=00E5FF&center=true&vCenter=true&repeat=true&width=260&height=30&lines=%F0%9F%A7%A0+ML+%2F+AI+Frameworks" alt="ML / AI" />
+<br/><br/>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" alt="ML Frameworks" />
+</a>
+
+<br/><br/>
+
+<!-- ── Tools & Platforms ──────────────────────────────────────────── -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1500&color=00E5FF&center=true&vCenter=true&repeat=true&width=260&height=30&lines=%F0%9F%9B%A0%EF%B8%8F+Tools+%26+Platforms" alt="Tools" />
+<br/><br/>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=docker,git,linux,vscode,anaconda,bash&theme=dark" alt="Tools" />
+</a>
+
+<br/><br/>
+
+<!-- ── Cloud & MLOps ──────────────────────────────────────────────── -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1500&color=00E5FF&center=true&vCenter=true&repeat=true&width=260&height=30&lines=%E2%98%81%EF%B8%8F+Cloud+%26+MLOps" alt="Cloud" />
+<br/><br/>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=aws,gcp,github,githubactions&theme=dark" alt="Cloud" />
+</a>
 
 </div>
 
